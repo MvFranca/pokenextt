@@ -1,0 +1,17 @@
+.sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+    min-height: 80vh;
+    justify-content: center;
+}
+
+
+.informacoes{
+    max-width: 500px;
+    padding: 8px;
+    font-size: 1.4em;
+    align-self: center; 
+    height: max-content;
+}

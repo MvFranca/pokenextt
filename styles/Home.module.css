@@ -1,0 +1,28 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+
+.title{
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    margin-right: 0.4em;
+}
+
+.title span {
+    color: #333;
+}
+
+.pokemonsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 5px;
+}

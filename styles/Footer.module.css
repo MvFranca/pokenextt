@@ -1,0 +1,9 @@
+.rodape{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}

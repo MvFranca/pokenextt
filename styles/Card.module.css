@@ -1,0 +1,47 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+
+    width: 250px;
+    border-radius: 1em;
+    border: 2px solid rgb(175, 4, 4);
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.507);
+    background-color: #333;
+    color: white;
+    margin: 0 auto 2em;
+}
+
+.card .id{
+    margin-top: 1em 0;
+    background-color: #e33d33;
+    border-radius: 5px ;
+    padding: 5px;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.card .title{
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+}
+
+.card .btn {
+    text-decoration: none;
+    background-color: white;
+    color: #222;
+    padding: .7em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.card .btn:hover{
+    background-color: #e33d33;
+    color: white;
+}

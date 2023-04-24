@@ -1,0 +1,43 @@
+.cabecalho div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 80px;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 2em;
+}
+
+.cabecalho div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    align-items: center;
+    max-width: 500px;
+}
+
+.cabecalho nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 24px;
+}
+
+.cabecalho nav ul li a:hover{
+    background-color: rgb(56, 56, 56);
+}
