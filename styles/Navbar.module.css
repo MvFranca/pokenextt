@@ -1,4 +1,4 @@
-@media (max-width: 2000px) {
+
 
 .cabecalho div{
     display: flex;
@@ -48,7 +48,7 @@
 .cabecalho .menu{
     display: none;
 }
-}
+
 
 @media (max-width: 600px) {
     
