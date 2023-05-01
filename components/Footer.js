@@ -1,5 +1,6 @@
 
 import styles from '../styles/Footer.module.css'
+import Link from 'next/link'
 
 export default function Footer(){
 
@@ -9,11 +10,19 @@ export default function Footer(){
             <p>
                 <span>
                     PokeNext
-                </span> &copy; 2021 
+                </span> &copy; 2023 
             </p>
             <p>
-                Criado por Marcos Vinicius França Silva.
+                Desenvolvido por Marcos Vinicius França Silva.
             </p>
+            <div className={styles.redes}>
+                <Link href={'#'}>
+                    GitHub
+                </Link>
+                <Link href={'#'}>
+                    Linkedin
+                </Link>
+            </div>
         </footer>
         </>
     )

@@ -2,7 +2,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-   
+    
     min-height: 80vh;
     justify-content: center;
 }
@@ -14,4 +14,27 @@
     font-size: 1.4em;
     align-self: center; 
     height: max-content;
+}
+
+.informacoes div{
+    padding: 8px;
+}
+
+.informacoes h1{
+    background-color: #333;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: #555;
+}
+
+.informacoes a:hover{
+    text-decoration: none;
+    color: #555;
+    text-decoration: underline;
 }
