@@ -2,22 +2,41 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    
+    color: #fff;
     min-height: 80vh;
+
+    width: 90%;
+    margin: -32px auto 0;
+    border-left: 2px solid rgb(175, 4, 4);
+    border-right: 2px solid rgb(175, 4, 4);
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.842);
+    background-color: #333;
     justify-content: center;
+
 }
 
 
 .informacoes{
-    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
     padding: 8px;
     font-size: 1.4em;
     align-self: center; 
     height: max-content;
 }
 
+.informacoes div p{
+margin: auto;
+padding: 0 5px;
+}
+
 .informacoes div{
+
     padding: 8px;
+    margin: auto;
 }
 
 .informacoes h1{
@@ -31,11 +50,11 @@
 
 .informacoes a{
     text-decoration: none;
-    color: #555;
+    color: #afafaf;
 }
 
 .informacoes a:hover{
     text-decoration: none;
-    color: #555;
+    color: #8b6d6d;
     text-decoration: underline;
 }

@@ -6,7 +6,9 @@
     
 }
 
-
+body{
+    background-color: #181A1B;
+}
 
 .mainContainer{
     min-height: 80vh;
