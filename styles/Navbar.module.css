@@ -17,6 +17,7 @@
     padding: 0 5px;
     margin-bottom: 2em;
     border-bottom: 2px solid #adadad;
+    box-sizing: border-box;
 }
 
 .cabecalho div {
@@ -33,7 +34,10 @@
     height: max-content;
     align-items: center;
     max-width: 500px;
+    
 }
+
+
 
 .cabecalho nav ul li a{
     color: white;
@@ -50,6 +54,17 @@
     display: none;
 }
 
+.cabecalho .menuM{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.cabecalho .menuMobile{
+    display: none;
+}
 
 @media (max-width: 600px) {
     
@@ -61,3 +76,5 @@
         display: flex;
     }
 }
+
+

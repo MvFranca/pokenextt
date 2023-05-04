@@ -1,0 +1,43 @@
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333333d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    backdrop-filter: blur(3px);
+}
+
+.container svg{
+        position: absolute;
+        top: 1.8rem;
+        right: 4.7rem;
+        color: #fff;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+.container nav{
+display: flex;
+flex-direction: column;
+
+}
+
+.container nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 30px;
+        width: 100vw;
+        text-align: center;
+        transition: .2s;
+}   
+
+
+.container nav a:hover{
+    background-color: #25252583;
+}
