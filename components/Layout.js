@@ -1,7 +1,6 @@
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import Head from "next/head"
-import { useState } from "react"
 
 export default function Layout({children}){
 
