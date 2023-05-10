@@ -7,14 +7,14 @@ import MenuMobile from "./menuMobile"
 export default function Navbar({setMenuSituation}){    
 
     const menuAparecer = () => {
-        document.getElementById('menuMobile').style.display = 'flex'
+        document.getElementById('MenuMobile').style.display = 'flex'
     }
 
     return(
         <>
             
         <header className={styles.cabecalho}> 
-            <div className={styles.menuM} id="menuMobile">
+            <div className={styles.menuM} id="MenuMobile">
                 <MenuMobile
                 />
             </div>

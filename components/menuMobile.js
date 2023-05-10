@@ -8,12 +8,12 @@ export default function MenuMobile(){
     const [menuSituation, setMenuSituation] = useState('')
 
     const menuFechar = () => {
-       let menuAtual = document.getElementById('menuMobile').style.display = 'none'
-       setMenuSituation(document.getElementById('menuMobile').style.display)
+       let menuAtual = document.getElementById('MenuMobile').style.display = 'none'
+       setMenuSituation(menuAtual)
     }
 
     return(
-        <main className={styles.container} id='menuMobile'>
+        <main className={styles.container} >
             <div>
                 <AiOutlineClose onClick={menuFechar}/>
             </div>  
