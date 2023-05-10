@@ -13,7 +13,7 @@ export default function MenuMobile(){
     }
 
     return(
-        <main className={styles.container} >
+        <section className={styles.container} >
             <div>
                 <AiOutlineClose onClick={menuFechar}/>
             </div>  
@@ -23,6 +23,6 @@ export default function MenuMobile(){
                     <Link href={'https://www.linkedin.com/in/mvfranc4/'}  target='_blank' >LinkedIn</Link>
                     <Link href={'https://github.com/MvFranca'} target='_blank' >GitHub</Link>
             </nav>
-        </main>
+        </section>
     )
 }
