@@ -10,13 +10,13 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(8px);
 }
 
 .container svg{
         position: absolute;
         top: 1.8rem;
-        right: 4.7rem;
+        right: 3rem;
         color: #fff;
         width: 1.8rem;
         height: 1.8rem;
